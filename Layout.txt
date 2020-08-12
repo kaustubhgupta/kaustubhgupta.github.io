@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Landing Page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="static/css/main.css" />
+		<noscript><link rel="stylesheet" href="static/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Kaustubh Gupta</h1>
+						<p>Python Developer &nbsp;&bull;&nbsp; Data Science &nbsp;&bull;&nbsp; Technical Writer &nbsp;&bull;&nbsp; Open Source Contributor &nbsp;&bull;&nbsp; Backend-WebDeveloper &nbsp;&bull;&nbsp; Python Android Apps &nbsp;&bull;&nbsp; Telegram Bots &nbsp;&bull;&nbsp; Deep Learning</p>
+						<nav>
+							<ul>
+								<li><a href="https://twitter.com/Kaustubh1828" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.facebook.com/kaustubh.gupta.1828/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="https://medium.com/@kaustubhgupta1828" class="icon brands fa-medium"><span class="label">Medium</span></a></li>
+								<li><a href="https://github.com/kaustubhgupta" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<li><a href="https://www.linkedin.com/in/kaustubh-gupta-612767ab/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+								<li><a href="https://www.instagram.com/kaustubhgupta1828/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							</ul>
+							
+						</nav>
+						<nav>
+							<ul>
+								<li><a href="/about.html" ><h3> About Me </h3></a></li>
+								<li><a href="/works.html" ><h3> My works </h3></a></li>
+								<li><a href="/contact.html"><h3> Contact </h3></a></li>
+							</ul>
+						</nav>
+								{% block body %} {% endblock %}
+					</header>
+					
+				<!-- Footer -->
+					<footer id="footer">
+						<p>Managed by Kaustubh Gupta</p>
+					</footer>
+					
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+		
+	</body>
+</html>
