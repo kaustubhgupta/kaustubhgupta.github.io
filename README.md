@@ -1,5 +1,7 @@
 # [kaustubhgupta.github.io](https://kaustubhgupta.github.io/)
 
+![](https://github.com/kaustubhgupta/kaustubhgupta.github.io/blob/master/preview.PNG)
+
 This is a demo website for the Flask Frozen deployment.
 
 # Why this website?
