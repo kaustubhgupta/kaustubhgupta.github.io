@@ -2,7 +2,7 @@
 
 ![](https://github.com/kaustubhgupta/kaustubhgupta.github.io/blob/master/preview.PNG)
 
-This is a demo website for the Flask Frozen deployment.
+This is a demo website for the Flask Frozen deployment. Using this extension, we can build static websites that were previously having flask backend. This extension makes it possible to freeze the flask application and makes it a static website.
 
 # Why this website?
 This website has been made to demonstrate frozen-flask and to test out github pages.
