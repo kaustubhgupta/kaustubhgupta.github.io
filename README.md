@@ -1,5 +1,6 @@
-# Demo
+# [Self Updating Portfolio](https://kaustubhgupta.github.io/)
 
-This website is an example of my Github action which updates the website with projects and hackathons you participated in. Additionally using blogs action, you can include your latest blogs too
+This website is an example of my Github action which updates the website with projects and hackathons I participated in. Additionally using blogs action, the website updates the latest blogs on the scheduled time.
 
-Will update this readme too later...
+## Want to integrate it in your repository?
+Check out the action here: [Ultimate Portfolio Maker](https://github.com/marketplace/actions/ultimate-portfolio-maker)
