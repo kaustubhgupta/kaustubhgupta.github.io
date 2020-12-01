@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - uses: actions/checkout@v2
-        - uses: kaustubhgupta/PortfolioFy@v1.0
+        - uses: kaustubhgupta/PortfolioFy@main
           with:
             gh_token: ${{ secrets.TOKEN }}
             stats_choice: 2
