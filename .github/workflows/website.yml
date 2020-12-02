@@ -16,7 +16,7 @@ jobs:
             gh_token: ${{ secrets.TOKEN }}
             stats_choice: 1
             blogs: True
-            theme: 1
+            theme: 2
             hackathons: True
   
         - uses: test-room-7/action-update-file@v1
