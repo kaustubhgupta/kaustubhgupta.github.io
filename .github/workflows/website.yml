@@ -17,7 +17,7 @@ jobs:
             stats_choice: 1
             blogs: True
             theme: 2
-            hackathons: True
+            hackathons: False
   
         - uses: test-room-7/action-update-file@v1
           with:
