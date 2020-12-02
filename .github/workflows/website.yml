@@ -15,7 +15,7 @@ jobs:
           with:
             gh_token: ${{ secrets.TOKEN }}
             stats_choice: 1
-            blogs: True
+            blogs: False
             theme: 2
             hackathons: False
   
