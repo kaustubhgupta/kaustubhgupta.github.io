@@ -18,6 +18,7 @@ jobs:
             blogs: True
             theme: 2
             hackathons: True
+            social_links: 'https://www.linkedin.com/in/kaustubh-gupta/, https://twitter.com/Kaustubh1828, https://medium.com/@kaustubhgupta1828, https://dev.to/kaustubhgupta, https://stackoverflow.com/users/14681298/kaustubh'
   
         - uses: test-room-7/action-update-file@v1
           with:
