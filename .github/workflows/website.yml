@@ -19,6 +19,7 @@ jobs:
             theme: 2
             hackathons: True
             social_links: 'https://www.linkedin.com/in/kaustubh-gupta/, https://twitter.com/Kaustubh1828, https://medium.com/@kaustubhgupta1828'
+            allow_footer: False
             
         - uses: test-room-7/action-update-file@v1
           with:
