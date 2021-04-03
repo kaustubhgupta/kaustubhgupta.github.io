@@ -1,13 +1,13 @@
-name: Latest portfolio
+name: Updating Index
 on:
   schedule:
-      # Runs at the end of every week
-      - cron: '0 0 * * 0'
+      # Runs at the end of every day
+      - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:     
   job_1:
-    name: update-index-with-project
+    name: update-index
     runs-on: ubuntu-latest
     steps:
         - uses: actions/checkout@v2
@@ -20,10 +20,3 @@ jobs:
             hackathons: True
             social_links: 'https://www.linkedin.com/in/kaustubh-gupta/, https://twitter.com/Kaustubh1828, https://medium.com/@kaustubhgupta1828'
             allow_footer: False
-            
-        - uses: test-room-7/action-update-file@v1
-          with:
-            file-path: |
-              index.html
-            commit-msg: index file added
-            github-token: ${{ secrets.TOKEN }}
