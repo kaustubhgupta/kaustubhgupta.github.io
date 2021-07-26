@@ -20,3 +20,4 @@ jobs:
             hackathons: False
             social_links: "https://www.linkedin.com/in/kaustubh-gupta/, https://twitter.com/Kaustubh1828, https://medium.com/@kaustubhgupta1828"
             allow_footer: False
+            projects_sort_by: 'forks'
